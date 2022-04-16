@@ -13,6 +13,8 @@ Tenants can create multiple teams and invite members.
 
 Meridian can also be setup as a standalone solution.
 
+![](https://raw.githubusercontent.com/anishdcruz/ck-meridian/main/assets/main.png)
+
 ## Contibution
 
 Feel free to make pull request.# ck-meridian
