@@ -1,0 +1,1552 @@
+{
+    "AED": {
+        "name": "UAE Dirham",
+        "code": "AED",
+        "symbol": "\u062f\u0625\u200f",
+        "format": "\u062f\u0625\u200f 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "AFN": {
+        "name": "Afghanistan, Afghani",
+        "code": "AFN",
+        "symbol": "\u060b",
+        "format": "\u060b1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "ALL": {
+        "name": "Albania, Lek",
+        "code": "ALL",
+        "symbol": "Lek",
+        "format": "1,0.00Lek",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "AMD": {
+        "name": "Armenian Dram",
+        "code": "AMD",
+        "symbol": "&#1423;",
+        "format": "1,0.00 &#1423;",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "ANG": {
+        "name": "Netherlands Antillian Guilder",
+        "code": "ANG",
+        "symbol": "\u0192",
+        "format": "\u01921,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "AOA": {
+        "name": "Angola, Kwanza",
+        "code": "AOA",
+        "symbol": "Kz",
+        "format": "Kz1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "ARS": {
+        "name": "Argentine Peso",
+        "code": "ARS",
+        "symbol": "$",
+        "format": "$ 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "AUD": {
+        "name": "Australian Dollar",
+        "code": "AUD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "AWG": {
+        "name": "Aruban Guilder",
+        "code": "AWG",
+        "symbol": "\u0192",
+        "format": "\u01921,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "AZN": {
+        "name": "Azerbaijanian Manat",
+        "code": "AZN",
+        "symbol": "\u20bc",
+        "format": "1 0,00 \u20bc",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BAM": {
+        "name": "Bosnia and Herzegovina, Convertible Marks",
+        "code": "BAM",
+        "symbol": "\u041a\u041c",
+        "format": "1,0.00 \u041a\u041c",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BBD": {
+        "name": "Barbados Dollar",
+        "code": "BBD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BDT": {
+        "name": "Bangladesh, Taka",
+        "code": "BDT",
+        "symbol": "\u09f3",
+        "format": "\u09f3 1,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BGN": {
+        "name": "Bulgarian Lev",
+        "code": "BGN",
+        "symbol": "\u043b\u0432.",
+        "format": "1 0,00 \u043b\u0432.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BHD": {
+        "name": "Bahraini Dinar",
+        "code": "BHD",
+        "symbol": ".\u062f.",
+        "format": ".\u062f. 1,0.000",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BIF": {
+        "name": "Burundi Franc",
+        "code": "BIF",
+        "symbol": "FBu",
+        "format": "1,0.FBu",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BMD": {
+        "name": "Bermudian Dollar",
+        "code": "BMD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BND": {
+        "name": "Brunei Dollar",
+        "code": "BND",
+        "symbol": "$",
+        "format": "$1,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BOB": {
+        "name": "Bolivia, Boliviano",
+        "code": "BOB",
+        "symbol": "Bs",
+        "format": "Bs 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BRL": {
+        "name": "Brazilian Real",
+        "code": "BRL",
+        "symbol": "R$",
+        "format": "R$ 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BSD": {
+        "name": "Bahamian Dollar",
+        "code": "BSD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BTN": {
+        "name": "Bhutan, Ngultrum",
+        "code": "BTN",
+        "symbol": "Nu.",
+        "format": "Nu. 1,0.0",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BWP": {
+        "name": "Botswana, Pula",
+        "code": "BWP",
+        "symbol": "P",
+        "format": "P1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BYR": {
+        "name": "Belarussian Ruble",
+        "code": "BYR",
+        "symbol": "\u0440.",
+        "format": "1 0,00 \u0440.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "BZD": {
+        "name": "Belize Dollar",
+        "code": "BZD",
+        "symbol": "BZ$",
+        "format": "BZ$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CAD": {
+        "name": "Canadian Dollar",
+        "code": "CAD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CDF": {
+        "name": "Franc Congolais",
+        "code": "CDF",
+        "symbol": "FC",
+        "format": "1,0.00FC",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CHF": {
+        "name": "Swiss Franc",
+        "code": "CHF",
+        "symbol": "CHF",
+        "format": "1'0.00 CHF",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CLP": {
+        "name": "Chilean Peso",
+        "code": "CLP",
+        "symbol": "$",
+        "format": "$ 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CNY": {
+        "name": "China Yuan Renminbi",
+        "code": "CNY",
+        "symbol": "\u00a5",
+        "format": "\u00a51,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "COP": {
+        "name": "Colombian Peso",
+        "code": "COP",
+        "symbol": "$",
+        "format": "$ 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CRC": {
+        "name": "Costa Rican Colon",
+        "code": "CRC",
+        "symbol": "\u20a1",
+        "format": "\u20a11,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CUC": {
+        "name": "Cuban Convertible Peso",
+        "code": "CUC",
+        "symbol": "CUC",
+        "format": "CUC1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CUP": {
+        "name": "Cuban Peso",
+        "code": "CUP",
+        "symbol": "$MN",
+        "format": "$MN1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CVE": {
+        "name": "Cape Verde Escudo",
+        "code": "CVE",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "CZK": {
+        "name": "Czech Koruna",
+        "code": "CZK",
+        "symbol": "K\u010d",
+        "format": "1 0,00 K\u010d",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "DJF": {
+        "name": "Djibouti Franc",
+        "code": "DJF",
+        "symbol": "Fdj",
+        "format": "1,0.Fdj",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "DKK": {
+        "name": "Danish Krone",
+        "code": "DKK",
+        "symbol": "kr.",
+        "format": "1 0,00 kr.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "DOP": {
+        "name": "Dominican Peso",
+        "code": "DOP",
+        "symbol": "RD$",
+        "format": "RD$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "DZD": {
+        "name": "Algerian Dinar",
+        "code": "DZD",
+        "symbol": "\u062f.\u062c\u200f",
+        "format": "\u062f.\u062c\u200f 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "EGP": {
+        "name": "Egyptian Pound",
+        "code": "EGP",
+        "symbol": "\u062c.\u0645",
+        "format": "\u062c.\u0645 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "ERN": {
+        "name": "Eritrea, Nakfa",
+        "code": "ERN",
+        "symbol": "Nfk",
+        "format": "1,0.00Nfk",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "ETB": {
+        "name": "Ethiopian Birr",
+        "code": "ETB",
+        "symbol": "ETB",
+        "format": "ETB1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "EUR": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "\u20ac",
+        "format": "1.0,00 \u20ac",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "FJD": {
+        "name": "Fiji Dollar",
+        "code": "FJD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "FKP": {
+        "name": "Falkland Islands Pound",
+        "code": "FKP",
+        "symbol": "\u00a3",
+        "format": "\u00a31,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "GBP": {
+        "name": "Pound Sterling",
+        "code": "GBP",
+        "symbol": "\u00a3",
+        "format": "\u00a31,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "GEL": {
+        "name": "Georgia, Lari",
+        "code": "GEL",
+        "symbol": "Lari",
+        "format": "1 0,00 Lari",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "GHS": {
+        "name": "Ghana Cedi",
+        "code": "GHS",
+        "symbol": "\u20b5",
+        "format": "\u20b51,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "GIP": {
+        "name": "Gibraltar Pound",
+        "code": "GIP",
+        "symbol": "\u00a3",
+        "format": "\u00a31,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "GMD": {
+        "name": "Gambia, Dalasi",
+        "code": "GMD",
+        "symbol": "D",
+        "format": "1,0.00D",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "GTQ": {
+        "name": "Guatemala, Quetzal",
+        "code": "GTQ",
+        "symbol": "Q",
+        "format": "Q1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "GYD": {
+        "name": "Guyana Dollar",
+        "code": "GYD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "HKD": {
+        "name": "Hong Kong Dollar",
+        "code": "HKD",
+        "symbol": "HK$",
+        "format": "HK$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "HNL": {
+        "name": "Honduras, Lempira",
+        "code": "HNL",
+        "symbol": "L.",
+        "format": "L. 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "HRK": {
+        "name": "Croatian Kuna",
+        "code": "HRK",
+        "symbol": "kn",
+        "format": "1,0.00 kn",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "HTG": {
+        "name": "Haiti, Gourde",
+        "code": "HTG",
+        "symbol": "G",
+        "format": "G1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "HUF": {
+        "name": "Hungary, Forint",
+        "code": "HUF",
+        "symbol": "Ft",
+        "format": "1 0,00 Ft",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "IDR": {
+        "name": "Indonesia, Rupiah",
+        "code": "IDR",
+        "symbol": "Rp",
+        "format": "Rp1,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "ILS": {
+        "name": "New Israeli Shekel",
+        "code": "ILS",
+        "symbol": "\u20aa",
+        "format": "\u20aa 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "INR": {
+        "name": "Indian Rupee",
+        "code": "INR",
+        "symbol": "\u20b9",
+        "format": "1,0.00\u20b9",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "IQD": {
+        "name": "Iraqi Dinar",
+        "code": "IQD",
+        "symbol": "\u062f.\u0639.\u200f",
+        "format": "\u062f.\u0639.\u200f 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "IRR": {
+        "name": "Iranian Rial",
+        "code": "IRR",
+        "symbol": "\ufdfc",
+        "format": "\ufdfc 1,0\/00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "ISK": {
+        "name": "Iceland Krona",
+        "code": "ISK",
+        "symbol": "kr.",
+        "format": "1,0. kr.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "JMD": {
+        "name": "Jamaican Dollar",
+        "code": "JMD",
+        "symbol": "J$",
+        "format": "J$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "JOD": {
+        "name": "Jordanian Dinar",
+        "code": "JOD",
+        "symbol": "\u062f.\u0627.\u200f",
+        "format": "\u062f.\u0627.\u200f 1,0.000",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "JPY": {
+        "name": "Japan, Yen",
+        "code": "JPY",
+        "symbol": "\u00a5",
+        "format": "\u00a51,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KES": {
+        "name": "Kenyan Shilling",
+        "code": "KES",
+        "symbol": "S",
+        "format": "S1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KGS": {
+        "name": "Kyrgyzstan, Som",
+        "code": "KGS",
+        "symbol": "\u0441\u043e\u043c",
+        "format": "1 0-00 \u0441\u043e\u043c",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KHR": {
+        "name": "Cambodia, Riel",
+        "code": "KHR",
+        "symbol": "\u17db",
+        "format": "1,0.\u17db",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KMF": {
+        "name": "Comoro Franc",
+        "code": "KMF",
+        "symbol": "CF",
+        "format": "1,0.00CF",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KPW": {
+        "name": "North Korean Won",
+        "code": "KPW",
+        "symbol": "\u20a9",
+        "format": "\u20a91,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KRW": {
+        "name": "South Korea, Won",
+        "code": "KRW",
+        "symbol": "\u20a9",
+        "format": "\u20a91,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KWD": {
+        "name": "Kuwaiti Dinar",
+        "code": "KWD",
+        "symbol": "\u062f\u064a\u0646\u0627\u0631\u200e\u200e\u200f",
+        "format": "\u062f\u064a\u0646\u0627\u0631\u200e\u200e\u200f 1,0.000",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KYD": {
+        "name": "Cayman Islands Dollar",
+        "code": "KYD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "KZT": {
+        "name": "Kazakhstan, Tenge",
+        "code": "KZT",
+        "symbol": "\u20b8",
+        "format": "\u20b81 0-00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "LAK": {
+        "name": "Laos, Kip",
+        "code": "LAK",
+        "symbol": "\u20ad",
+        "format": "1,0.\u20ad",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "LBP": {
+        "name": "Lebanese Pound",
+        "code": "LBP",
+        "symbol": "\u0644.\u0644.\u200f",
+        "format": "\u0644.\u0644.\u200f 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "LKR": {
+        "name": "Sri Lanka Rupee",
+        "code": "LKR",
+        "symbol": "\u20a8",
+        "format": "\u20a8 1,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "LRD": {
+        "name": "Liberian Dollar",
+        "code": "LRD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "LSL": {
+        "name": "Lesotho, Loti",
+        "code": "LSL",
+        "symbol": "M",
+        "format": "1,0.00M",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "LYD": {
+        "name": "Libyan Dinar",
+        "code": "LYD",
+        "symbol": "\u062f.\u0644.\u200f",
+        "format": "\u062f.\u0644.\u200f1,0.000",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MAD": {
+        "name": "Moroccan Dirham",
+        "code": "MAD",
+        "symbol": "\u062f.\u0645.\u200f",
+        "format": "\u062f.\u0645.\u200f 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MDL": {
+        "name": "Moldovan Leu",
+        "code": "MDL",
+        "symbol": "lei",
+        "format": "1,0.00 lei",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MGA": {
+        "name": "Malagasy Ariary",
+        "code": "MGA",
+        "symbol": "Ar",
+        "format": "Ar1,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MKD": {
+        "name": "Macedonia, Denar",
+        "code": "MKD",
+        "symbol": "\u0434\u0435\u043d.",
+        "format": "1,0.00 \u0434\u0435\u043d.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MMK": {
+        "name": "Myanmar, Kyat",
+        "code": "MMK",
+        "symbol": "K",
+        "format": "K1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MNT": {
+        "name": "Mongolia, Tugrik",
+        "code": "MNT",
+        "symbol": "\u20ae",
+        "format": "\u20ae1 0,00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MOP": {
+        "name": "Macao, Pataca",
+        "code": "MOP",
+        "symbol": "MOP$",
+        "format": "MOP$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MRO": {
+        "name": "Mauritania, Ouguiya",
+        "code": "MRO",
+        "symbol": "UM",
+        "format": "1,0.00UM",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MTL": {
+        "name": "Maltese Lira",
+        "code": "MTL",
+        "symbol": "\u20a4",
+        "format": "\u20a41,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MUR": {
+        "name": "Mauritius Rupee",
+        "code": "MUR",
+        "symbol": "\u20a8",
+        "format": "\u20a81,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MVR": {
+        "name": "Maldives, Rufiyaa",
+        "code": "MVR",
+        "symbol": "MVR",
+        "format": "1,0.0 MVR",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MWK": {
+        "name": "Malawi, Kwacha",
+        "code": "MWK",
+        "symbol": "MK",
+        "format": "MK1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MXN": {
+        "name": "Mexican Peso",
+        "code": "MXN",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MYR": {
+        "name": "Malaysian Ringgit",
+        "code": "MYR",
+        "symbol": "RM",
+        "format": "RM1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:55",
+        "updated_at": "2019-03-06 10:20:55"
+    },
+    "MZN": {
+        "name": "Mozambique Metical",
+        "code": "MZN",
+        "symbol": "MT",
+        "format": "MT1,0.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "NAD": {
+        "name": "Namibian Dollar",
+        "code": "NAD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "NGN": {
+        "name": "Nigeria, Naira",
+        "code": "NGN",
+        "symbol": "\u20a6",
+        "format": "\u20a61,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "NIO": {
+        "name": "Nicaragua, Cordoba Oro",
+        "code": "NIO",
+        "symbol": "C$",
+        "format": "C$ 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "NOK": {
+        "name": "Norwegian Krone",
+        "code": "NOK",
+        "symbol": "kr",
+        "format": "1.0,00 kr",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "NPR": {
+        "name": "Nepalese Rupee",
+        "code": "NPR",
+        "symbol": "\u20a8",
+        "format": "\u20a81,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "NZD": {
+        "name": "New Zealand Dollar",
+        "code": "NZD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "OMR": {
+        "name": "Rial Omani",
+        "code": "OMR",
+        "symbol": "\ufdfc",
+        "format": "\ufdfc 1,0.000",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "PAB": {
+        "name": "Panama, Balboa",
+        "code": "PAB",
+        "symbol": "B\/.",
+        "format": "B\/. 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "PEN": {
+        "name": "Peru, Nuevo Sol",
+        "code": "PEN",
+        "symbol": "S\/.",
+        "format": "S\/. 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "PGK": {
+        "name": "Papua New Guinea, Kina",
+        "code": "PGK",
+        "symbol": "K",
+        "format": "K1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "PHP": {
+        "name": "Philippine Peso",
+        "code": "PHP",
+        "symbol": "\u20b1",
+        "format": "\u20b11,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "PKR": {
+        "name": "Pakistan Rupee",
+        "code": "PKR",
+        "symbol": "\u20a8",
+        "format": "\u20a81,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "PLN": {
+        "name": "Poland, Zloty",
+        "code": "PLN",
+        "symbol": "z\u0142",
+        "format": "1 0,00 z\u0142",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "PYG": {
+        "name": "Paraguay, Guarani",
+        "code": "PYG",
+        "symbol": "\u20b2",
+        "format": "\u20b2 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "QAR": {
+        "name": "Qatari Rial",
+        "code": "QAR",
+        "symbol": "\ufdfc",
+        "format": "\ufdfc 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "RON": {
+        "name": "Romania, New Leu",
+        "code": "RON",
+        "symbol": "lei",
+        "format": "1,0.00 lei",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "RSD": {
+        "name": "Serbian Dinar",
+        "code": "RSD",
+        "symbol": "\u0414\u0438\u043d.",
+        "format": "1,0.00 \u0414\u0438\u043d.",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "RUB": {
+        "name": "Russian Ruble",
+        "code": "RUB",
+        "symbol": "\u20bd",
+        "format": "1 0,00 \u20bd",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "RWF": {
+        "name": "Rwanda Franc",
+        "code": "RWF",
+        "symbol": "RWF",
+        "format": "RWF 1 0,00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SAR": {
+        "name": "Saudi Riyal",
+        "code": "SAR",
+        "symbol": "\ufdfc",
+        "format": "\ufdfc 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SBD": {
+        "name": "Solomon Islands Dollar",
+        "code": "SBD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SCR": {
+        "name": "Seychelles Rupee",
+        "code": "SCR",
+        "symbol": "\u20a8",
+        "format": "\u20a81,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SDD": {
+        "name": "Sudanese Dinar",
+        "code": "SDD",
+        "symbol": "LSd",
+        "format": "1,0.00LSd",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SEK": {
+        "name": "Swedish Krona",
+        "code": "SEK",
+        "symbol": "kr",
+        "format": "1 0,00 kr",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SGD": {
+        "name": "Singapore Dollar",
+        "code": "SGD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SHP": {
+        "name": "Saint Helena Pound",
+        "code": "SHP",
+        "symbol": "\u00a3",
+        "format": "\u00a31,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SLL": {
+        "name": "Sierra Leone, Leone",
+        "code": "SLL",
+        "symbol": "Le",
+        "format": "Le1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SOS": {
+        "name": "Somali Shilling",
+        "code": "SOS",
+        "symbol": "S",
+        "format": "S1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SRD": {
+        "name": "Surinam Dollar",
+        "code": "SRD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "STD": {
+        "name": "Sao Tome and Principe, Dobra",
+        "code": "STD",
+        "symbol": "Db",
+        "format": "Db1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SVC": {
+        "name": "El Salvador Colon",
+        "code": "SVC",
+        "symbol": "\u20a1",
+        "format": "\u20a11,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SYP": {
+        "name": "Syrian Pound",
+        "code": "SYP",
+        "symbol": "\u00a3",
+        "format": "\u00a3 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "SZL": {
+        "name": "Swaziland, Lilangeni",
+        "code": "SZL",
+        "symbol": "E",
+        "format": "E1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "THB": {
+        "name": "Thailand, Baht",
+        "code": "THB",
+        "symbol": "\u0e3f",
+        "format": "\u0e3f1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TJS": {
+        "name": "Tajikistan, Somoni",
+        "code": "TJS",
+        "symbol": "TJS",
+        "format": "1 0;00 TJS",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TMT": {
+        "name": "Turkmenistani New Manat",
+        "code": "TMT",
+        "symbol": "m",
+        "format": "1 0,m",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TND": {
+        "name": "Tunisian Dinar",
+        "code": "TND",
+        "symbol": "\u062f.\u062a.\u200f",
+        "format": "\u062f.\u062a.\u200f 1,0.000",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TOP": {
+        "name": "Tonga, Paanga",
+        "code": "TOP",
+        "symbol": "T$",
+        "format": "T$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TRY": {
+        "name": "Turkish Lira",
+        "code": "TRY",
+        "symbol": "TL",
+        "format": "\u20ba1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TTD": {
+        "name": "Trinidad and Tobago Dollar",
+        "code": "TTD",
+        "symbol": "TT$",
+        "format": "TT$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TWD": {
+        "name": "New Taiwan Dollar",
+        "code": "TWD",
+        "symbol": "NT$",
+        "format": "NT$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "TZS": {
+        "name": "Tanzanian Shilling",
+        "code": "TZS",
+        "symbol": "TSh",
+        "format": "TSh1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "UAH": {
+        "name": "Ukraine, Hryvnia",
+        "code": "UAH",
+        "symbol": "\u20b4",
+        "format": "1 0,00\u20b4",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "UGX": {
+        "name": "Uganda Shilling",
+        "code": "UGX",
+        "symbol": "USh",
+        "format": "USh1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "USD": {
+        "name": "US Dollar",
+        "code": "USD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "UYU": {
+        "name": "Peso Uruguayo",
+        "code": "UYU",
+        "symbol": "$U",
+        "format": "$U 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "UZS": {
+        "name": "Uzbekistan Sum",
+        "code": "UZS",
+        "symbol": "\u0441\u045e\u043c",
+        "format": "1 0,00 \u0441\u045e\u043c",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "VEF": {
+        "name": "Venezuela Bolivares Fuertes",
+        "code": "VEF",
+        "symbol": "Bs. F.",
+        "format": "Bs. F. 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "VND": {
+        "name": "Viet Nam, Dong",
+        "code": "VND",
+        "symbol": "\u20ab",
+        "format": "1,0.0 \u20ab",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "VUV": {
+        "name": "Vanuatu, Vatu",
+        "code": "VUV",
+        "symbol": "VT",
+        "format": "1,0.VT",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "WST": {
+        "name": "Samoa, Tala",
+        "code": "WST",
+        "symbol": "WS$",
+        "format": "WS$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "XAF": {
+        "name": "Franc CFA (XAF)",
+        "code": "XAF",
+        "symbol": "F.CFA",
+        "format": "1,0.00 F.CFA",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "XCD": {
+        "name": "East Caribbean Dollar",
+        "code": "XCD",
+        "symbol": "$",
+        "format": "$1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "XOF": {
+        "name": "Franc CFA (XOF)",
+        "code": "XOF",
+        "symbol": "F.CFA",
+        "format": "1,0.00 F.CFA",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "XPF": {
+        "name": "CFP Franc",
+        "code": "XPF",
+        "symbol": "F",
+        "format": "1,0.00F",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "YER": {
+        "name": "Yemeni Rial",
+        "code": "YER",
+        "symbol": "\ufdfc",
+        "format": "\ufdfc 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "ZAR": {
+        "name": "South Africa, Rand",
+        "code": "ZAR",
+        "symbol": "R",
+        "format": "R 1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    },
+    "ZMW": {
+        "name": "Zambia Kwacha",
+        "code": "ZMW",
+        "symbol": "ZK",
+        "format": "ZK1,0.00",
+        "exchange_rate": 0,
+        "active": 0,
+        "created_at": "2019-03-06 10:20:56",
+        "updated_at": "2019-03-06 10:20:56"
+    }
+}

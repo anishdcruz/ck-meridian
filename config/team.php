@@ -1,0 +1,126 @@
+<?php
+
+return [
+	'defaults' => [
+		'registration_label' => 'GSTIN',
+		'tax_registration_id' => null,
+		'tax_enable' => 0,
+		'tax_label' =>'CGST',
+		'tax_rate' => 10,
+		'tax_2_enable' => 0,
+		'tax_2_label' =>'SGST',
+		'tax_2_rate' => 10,
+		'enable_discount' => 1,
+		'company_name' => null,
+		'company_address' => null,
+		'company_email' => null,
+		'company_telephone' => null,
+		'company_fax' => null,
+		'company_logo' => null,
+		'company_tax_id' => null,
+		'quotation_status_on_create_id' => null,
+		'quotation_status_on_sent_id' => null,
+		'quotation_status_on_invoiced_id' => null,
+		'quotation_email_subject' => 'Quotation {number} from {company}',
+		'quotation_email_template' => '<p>Dear {contact_name},</p><p><br></p><p>Thank you for contacting us.</p><p><br></p><p>Please find the attached quotation.</p><p>If you have any queries regarding this quotation, feel free to contact us.</p><p><br></p><p>Kind Regards,</p><p>Team {company}</p>',
+		'invoice_status_on_create_id' => null,
+		'invoice_status_on_sent_id' => null,
+		'invoice_status_on_paid_id' => null,
+		'invoice_status_on_partially_paid_id' => null,
+		'invoice_email_subject' => 'Invoice {number} from {company}',
+		'invoice_email_template' => '<p>Dear {contact_name},</p><p><br></p><p>Please find the attached invoice. We appreciate your prompt payment.</p><p><br></p><p>Due Date: <strong>{due_date}</strong></p><p>Amount: <strong>{grand_total}</strong></p><p><br></p><p>@paymentGateway</p><p>Pay online using the link below:-</p><p><a href="{payment_link}" target="_blank">Proceed to Pay</a></p><p>@endPaymentGateway</p><p><br></p><p>Thank you</p><p>Team {company}</p>',
+		'payment_notification_email' => null,
+		'payment_email_subject' => 'Payment Receipt {number} from {company}',
+		'payment_email_template' => '<p>Dear {contact_name},</p><p><br></p><p>Thank you for the payment. </p><p><br></p><p>Please find the attached Payment Receipt.</p><p><br></p><p>Amount Paid: <strong>{amount_received}</strong></p><p>Payment Date: <strong>{payment_date}</strong></p><p><br></p><p>If you have any queries regarding this payment receipt, feel free to contact us.</p><p><br></p><p>Thank you,</p><p>Team {company}</p>',
+		'refund_email_subject' => 'Refund {number} successful from {company}',
+		'refund_email_template' => '<p>Dear {contact_name},</p><p><br></p><p>Thank you for the payment.</p><p><br></p><p>The refund process for your payment {payment_number} has been initiated. </p><p>It may take up to 5-10 business days to appear on a your bank statement.</p><p><br></p><p>Refunded Amount: <strong>{amount_refunded}</strong></p><p>Total Payment: <strong>{amount_received}</strong></p><p>Refund Date: <strong>{refund_date}</strong></p><p><br></p><p>Thank you,</p><p>Team {company}</p>',
+		'purchase_order_status_on_create_id' => null,
+		'purchase_order_status_on_sent_id' => null,
+		'purchase_order_status_on_paid_id' => null,
+		'purchase_order_status_on_partially_paid_id' => null,
+		'purchase_order_email_subject' => 'Purchase Order {number} from {company}',
+		'purchase_order_email_template' => '<p>Dear {contact_name},</p><p><br></p><p>Please find the attached purchase order.</p><p>If you have any queries regarding this purchase order, feel free to contact us.</p><p><br></p><p>Kind Regards,</p><p>Team {company}</p>'
+	],
+	'contact_categories' => [
+		'Service',
+		'Gov / Non-profit',
+		'Education',
+		'Small Business',
+		'Healthcare'
+	],
+	'counters' => [
+		['key' => 'contact', 'prefix' => 'CT-', 'value' => '10001'],
+	    ['key' => 'item', 'prefix' => 'IT-', 'value' => '10001'],
+	    ['key' => 'quotation', 'prefix' => 'QT-', 'value' => '10001'],
+	    ['key' => 'invoice', 'prefix' => 'IN-', 'value' => '10001'],
+	    ['key' => 'payment_received', 'prefix' => 'PY-', 'value' => '10001'],
+	    ['key' => 'refund', 'prefix' => 'RF-', 'value' => '10001'],
+	    ['key' => 'vendor', 'prefix' => 'VD-', 'value' => '10001'],
+	    ['key' => 'purchase_order', 'prefix' => 'PO-', 'value' => '10001'],
+	    ['key' => 'payment_made', 'prefix' => 'PM-', 'value' => '10001'],
+	    ['key' => 'expense', 'prefix' => 'EX-', 'value' => '10001']
+	],
+	'item_categories' => [
+		'Product', 'Service'
+	],
+	'item_uoms' => [
+		'ea', 'set', 'point', 'pcs', 'cm',
+        'meter', 'day(s)', 'hour(s)',
+        'kg', 'km'
+	],
+	'quotation_statuses' => [
+		['name' => 'Draft', 'color' => 'grey', 'locked' => 1, 'default' => 'quotation_status_on_create_id'],
+		['name' => 'Sent', 'color' => 'light_green', 'locked' => 1, 'default' => 'quotation_status_on_sent_id'],
+		['name' => 'Accepted', 'color' => 'green'],
+		['name' => 'Declined', 'color' => 'red'],
+		['name' => 'Invoiced', 'color' => 'blue', 'locked' => 1, 'default' => 'quotation_status_on_invoiced_id']
+	],
+	'invoice_statuses' => [
+		['name' => 'Draft', 'color' => 'grey', 'locked' => 1, 'default' => 'invoice_status_on_create_id'],
+		['name' => 'Sent', 'color' => 'light_green', 'locked' => 1, 'default' => 'invoice_status_on_sent_id'],
+		['name' => 'Paid', 'color' => 'blue', 'locked' => 1, 'default' => 'invoice_status_on_paid_id'],
+		['name' => 'Partially Paid', 'color' => 'light_blue', 'locked' => 1, 'default' => 'invoice_status_on_partially_paid_id']
+	],
+	'vendor_categories' => [
+		'Credit Card',
+		'Employee',
+		'Finance Company',
+		'Government Agency',
+		'Insurance',
+		'Office Supplies',
+		'Professional',
+		'Service Provider',
+		'Sub Contractor',
+		'Utilities',
+		'Other'
+	],
+	'purchase_order_statuses' => [
+		['name' => 'Draft', 'color' => 'grey', 'locked' => 1, 'default' => 'purchase_order_status_on_create_id'],
+		['name' => 'Sent', 'color' => 'light_green', 'locked' => 1, 'default' => 'purchase_order_status_on_sent_id'],
+		['name' => 'Paid', 'color' => 'blue', 'locked' => 1, 'default' => 'purchase_order_status_on_paid_id'],
+		['name' => 'Partially Paid', 'color' => 'light_blue', 'locked' => 1, 'default' => 'purchase_order_status_on_partially_paid_id'],
+		['name' => 'Received', 'color' => 'pink', 'locked' => 0]
+	],
+	'expense_categories' => [
+		'Accommodation',
+		'Advertising and Promotion',
+		'Auto Expenses',
+		'Bank/Finance Charges',
+		'Charitable Donations',
+		'Computer Hardware',
+		'Computer Software',
+		'Employee Benefits Insurance',
+		'Interest Payable',
+		'Internet & Telephone',
+		'Licenses and Permits',
+		'Meals',
+		'Miscellaneous',
+		'Office Costs',
+		'Office Equipment',
+		'Stationery',
+		'Subscriptions',
+		'Travel',
+		'Web Hosting',
+		'Subcontractor Costs'
+	],
+];

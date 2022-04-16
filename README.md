@@ -17,4 +17,4 @@ Meridian can also be setup as a standalone solution.
 
 ## Contibution
 
-Feel free to make pull request.# ck-meridian
+Feel free to make pull request.

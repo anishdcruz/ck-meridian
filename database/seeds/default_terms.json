@@ -1,0 +1,26 @@
+[
+    {
+        "label": "quote-50-ex-one",
+        "description": "1. Payment 50% advance along with purchase order and remaining 50% on completion of work \/ delivery.\n2. Delivery ex-stock prior to sale.\n3. One year warranty from the date of material delivery."
+    },
+    {
+        "label": "quote-50-4-8-one",
+        "description": "1. Payment 50% advance along with purchase order and remaining 50% on completion of work \/ delivery.\n2. Delivery within 4-8 weeks.\n3. One year warranty from the date of material delivery."
+    },
+    {
+        "label": "quote-75-4-8-one",
+        "description": "1. Payment 75% advance along with purchase order and remaining 25% on completion of work \/ delivery.\n2. Delivery within 4-8 weeks.\n3. One year warranty from the date of material delivery."
+    },
+    {
+        "label": "quote-75-ex-one",
+        "description": "1. Payment 75% advance along with purchase order and remaining 25% on completion of work \/ delivery.\n2. Delivery ex-stock prior to sale.\n3. One year warranty from the date of material delivery."
+    },
+    {
+        "label": "inv-one",
+        "description": "1. Payment before due date\n3. One year warranty from the date of material delivery."
+    },
+    {
+        "label": "po-100-30-days",
+        "description": "Warranty: one year from the date of delivery.\nPayment: 100% after completion of delivery within 30 days."
+    }
+]

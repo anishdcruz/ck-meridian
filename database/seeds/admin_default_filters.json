@@ -1,0 +1,531 @@
+[
+    {
+        "id": 1,
+        "name": "All Users",
+        "resource": "users",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 2,
+        "name": "Users with Subscription",
+        "resource": "users",
+        "params": [
+            {
+                "column": {
+                    "name": "fsubscription.created_at",
+                    "type": "datetime",
+                    "title": "Subscription Created at"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 3,
+        "name": "All Subscriptions",
+        "resource": "subscriptions",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 4,
+        "name": "Subscriptions on Trial",
+        "resource": "subscriptions",
+        "params": [
+            {
+                "column": {
+                    "name": "trial_ends_at",
+                    "type": "datetime",
+                    "title": "Trial ends at"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 5,
+        "name": "Subscriptions that are ended",
+        "resource": "subscriptions",
+        "params": [
+            {
+                "column": {
+                    "name": "ends_at",
+                    "type": "datetime",
+                    "title": "ends_at"
+                },
+                "operator": {
+                    "name": "over",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_4"
+                },
+                "query_1": "1",
+                "query_2": "hours",
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 6,
+        "name": "All Teams",
+        "resource": "teams",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 7,
+        "name": "All Plans",
+        "resource": "plans",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 8,
+        "name": "Active Plans",
+        "resource": "plans",
+        "params": [
+            {
+                "column": {
+                    "name": "active",
+                    "type": "toggle",
+                    "title": "active"
+                },
+                "operator": {
+                    "name": "toggle",
+                    "parent": [
+                        "toggle"
+                    ],
+                    "component": "toggle"
+                },
+                "query_1": 1,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 9,
+        "name": "In Active Plans",
+        "resource": "plans",
+        "params": [
+            {
+                "column": {
+                    "name": "active",
+                    "type": "toggle",
+                    "title": "active"
+                },
+                "operator": {
+                    "name": "toggle",
+                    "parent": [
+                        "toggle"
+                    ],
+                    "component": "toggle"
+                },
+                "query_1": 0,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 10,
+        "name": "All FAQs",
+        "resource": "faqs",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 11,
+        "name": "FAQs on Pricing page",
+        "resource": "faqs",
+        "params": [
+            {
+                "column": {
+                    "name": "show_on_pricing",
+                    "type": "toggle",
+                    "title": "Show on pricing"
+                },
+                "operator": {
+                    "name": "toggle",
+                    "parent": [
+                        "toggle"
+                    ],
+                    "component": "toggle"
+                },
+                "query_1": 1,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 12,
+        "name": "All Admins",
+        "resource": "admins",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 13,
+        "name": "All Currencies",
+        "resource": "currencies",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 14,
+        "name": "Users joined in the past 28 days",
+        "resource": "users",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 15,
+        "name": "Active Subscriptions",
+        "resource": "subscriptions",
+        "params": [
+            {
+                "column": {
+                    "name": "trial_ends_at",
+                    "type": "datetime",
+                    "title": "Trial ends at"
+                },
+                "operator": {
+                    "name": "is_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            },
+            {
+                "column": {
+                    "name": "ends_at",
+                    "type": "datetime",
+                    "title": "ends_at"
+                },
+                "operator": {
+                    "name": "is_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 16,
+        "name": "Subscriptions in the past 28 days",
+        "resource": "subscriptions",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 17,
+        "name": "Subscriptions ending in the next 28 days",
+        "resource": "subscriptions",
+        "params": [
+            {
+                "column": {
+                    "name": "ends_at",
+                    "type": "datetime",
+                    "title": "ends_at"
+                },
+                "operator": {
+                    "name": "in_the_next",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    },
+    {
+        "id": 18,
+        "name": "Teams created at in the past 28 days",
+        "resource": "teams",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "shared_with": "team",
+        "filter_match": "and"
+    }
+]

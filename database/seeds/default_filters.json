@@ -1,0 +1,2228 @@
+[
+    {
+        "id": 2,
+        "name": "All Contacts",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "contacts",
+        "filter_match": "and"
+    },
+    {
+        "id": 3,
+        "name": "Contacts without organization",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "organization",
+                    "type": "lookup",
+                    "resource": "contacts",
+                    "title": "Organization"
+                },
+                "operator": {
+                    "name": "is_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "contacts",
+        "filter_match": "and"
+    },
+    {
+        "id": 4,
+        "name": "All Items",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "items",
+        "filter_match": "and"
+    },
+    {
+        "id": 5,
+        "name": "Items with price equal to zero",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "unit_price",
+                    "type": "numeric",
+                    "title": "Unit Price"
+                },
+                "operator": {
+                    "name": "equal_to",
+                    "parent": [
+                        "numeric",
+                        "string"
+                    ],
+                    "component": "single"
+                },
+                "query_1": "0",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "items",
+        "filter_match": "and"
+    },
+    {
+        "id": 6,
+        "name": "All Product Items",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "category.name",
+                    "type": "lookup",
+                    "resource": "item_categories",
+                    "column": "name",
+                    "title": "Category"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 1,
+                        "name": "Product",
+                        "value": "Product"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "items",
+        "filter_match": "and"
+    },
+    {
+        "id": 7,
+        "name": "All Service Items",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "category.name",
+                    "type": "lookup",
+                    "resource": "item_categories",
+                    "column": "name",
+                    "title": "Category"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 2,
+                        "name": "Service",
+                        "value": "Service"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "items",
+        "filter_match": "and"
+    },
+    {
+        "id": 8,
+        "name": "All Quotations",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 9,
+        "name": "Quotations issued today",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "today",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 10,
+        "name": "Quotations issued yesterday",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "yesterday",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 11,
+        "name": "Quotations issued this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 12,
+        "name": "Quotations issued last month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "last_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 13,
+        "name": "Quotations that are sent",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "quotation_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 2,
+                        "name": "Sent",
+                        "value": "Sent"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 14,
+        "name": "Quotations in draft",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "quotation_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 1,
+                        "name": "Draft",
+                        "value": "Draft"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 15,
+        "name": "Quotations that are Invoiced",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "quotation_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 5,
+                        "name": "Invoiced",
+                        "value": "Invoiced"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 16,
+        "name": "All Invoices",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 17,
+        "name": "Invoices pending payments",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "invoice_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 2,
+                        "name": "Sent",
+                        "value": "Sent"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Partially Paid",
+                        "value": "Partially Paid"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 18,
+        "name": "Invoices that are paid",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "invoice_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 3,
+                        "name": "Paid",
+                        "value": "Paid"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 19,
+        "name": "Invoices that are partially paid",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "invoice_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 4,
+                        "name": "Partially Paid",
+                        "value": "Partially Paid"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 20,
+        "name": "Invoices in draft",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "invoice_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 1,
+                        "name": "Draft",
+                        "value": "Draft"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 21,
+        "name": "Invoices issued last month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "last_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 22,
+        "name": "Invoices issued this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 23,
+        "name": "Invoices issued today",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "today",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 24,
+        "name": "Invoices issued yesterday",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "yesterday",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 25,
+        "name": "Invoices that are due over 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "due_date",
+                    "type": "datetime",
+                    "title": "Due Date"
+                },
+                "operator": {
+                    "name": "over",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_4"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 26,
+        "name": "Invoices that are due in the next 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "due_date",
+                    "type": "datetime",
+                    "title": "Due Date"
+                },
+                "operator": {
+                    "name": "in_the_next",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 27,
+        "name": "All Recurring Invoices",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "recurring-invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 28,
+        "name": "Monthly Invoices",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "frequency",
+                    "type": "static_lookup",
+                    "options": [
+                        "monthly",
+                        "weekly"
+                    ],
+                    "title": "Frequency"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "static_lookup"
+                    ],
+                    "component": "static_lookup"
+                },
+                "query_1": [
+                    {
+                        "name": "monthly",
+                        "value": "Monthly"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "recurring-invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 29,
+        "name": "Weekly Invoices",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "frequency",
+                    "type": "static_lookup",
+                    "options": [
+                        "monthly",
+                        "weekly"
+                    ],
+                    "title": "Frequency"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "static_lookup"
+                    ],
+                    "component": "static_lookup"
+                },
+                "query_1": [
+                    {
+                        "name": "weekly",
+                        "value": "Weekly"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "recurring-invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 30,
+        "name": "Recurring invoices that never expiries",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "never_expiry",
+                    "type": "toggle",
+                    "title": "Never Expiry"
+                },
+                "operator": {
+                    "name": "toggle",
+                    "parent": [
+                        "toggle"
+                    ],
+                    "component": "toggle"
+                },
+                "query_1": 1,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "recurring-invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 31,
+        "name": "Recurring invoices that are generated this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "last_generated_date",
+                    "type": "datetime",
+                    "title": "Last generated date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "recurring-invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 32,
+        "name": "All Payments",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 33,
+        "name": "Payments received today",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "today",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 34,
+        "name": "Payments received yesterday",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "yesterday",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 35,
+        "name": "Payments received last month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "last_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 36,
+        "name": "Payments received this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 37,
+        "name": "Payments received with Stripe",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "method",
+                    "type": "static_lookup",
+                    "options": [
+                        "stripe",
+                        "cheque",
+                        "cash",
+                        "bank_transfer"
+                    ],
+                    "title": "method"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "static_lookup"
+                    ],
+                    "component": "static_lookup"
+                },
+                "query_1": [
+                    {
+                        "name": "stripe",
+                        "value": "stripe"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 38,
+        "name": "Payments that are refunded in full or partial",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "amount_refunded",
+                    "type": "numeric",
+                    "title": "Amount Refunded"
+                },
+                "operator": {
+                    "name": "greater_than",
+                    "parent": [
+                        "numeric"
+                    ],
+                    "component": "single"
+                },
+                "query_1": "0",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 39,
+        "name": "Payments with transaction fees",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "transaction_fees",
+                    "type": "numeric",
+                    "title": "Transaction Fees"
+                },
+                "operator": {
+                    "name": "greater_than",
+                    "parent": [
+                        "numeric"
+                    ],
+                    "component": "single"
+                },
+                "query_1": "0",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 40,
+        "name": "All Refunds",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "refunds",
+        "filter_match": "and"
+    },
+    {
+        "id": 41,
+        "name": "Refunds issued today",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "refund_date",
+                    "type": "datetime",
+                    "title": "Refund Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "today",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "refunds",
+        "filter_match": "and"
+    },
+    {
+        "id": 42,
+        "name": "Refunds issued yesterday",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "refund_date",
+                    "type": "datetime",
+                    "title": "Refund Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "yesterday",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "refunds",
+        "filter_match": "and"
+    },
+    {
+        "id": 43,
+        "name": "Refunds issued last month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "refund_date",
+                    "type": "datetime",
+                    "title": "Refund Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "last_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "refunds",
+        "filter_match": "and"
+    },
+    {
+        "id": 44,
+        "name": "Refunds issued this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "refund_date",
+                    "type": "datetime",
+                    "title": "Refund Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "refunds",
+        "filter_match": "and"
+    },
+    {
+        "id": 45,
+        "name": "All Vendors",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "vendors",
+        "filter_match": "and"
+    },
+    {
+        "id": 46,
+        "name": "All Purchase Orders",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 47,
+        "name": "Purchase Orders sent",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "purchase_order_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 2,
+                        "name": "Sent",
+                        "value": "Sent"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 48,
+        "name": "Purchase Orders received",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "purchase_order_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 5,
+                        "name": "Received",
+                        "value": "Received"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 49,
+        "name": "Purchase Orders in draft",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "purchase_order_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 1,
+                        "name": "Draft",
+                        "value": "Draft"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 50,
+        "name": "Purchase Orders that are paid",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "purchase_order_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 3,
+                        "name": "Paid",
+                        "value": "Paid"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 51,
+        "name": "Purchase Orders that are partially paid",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "purchase_order_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 4,
+                        "name": "Partially Paid",
+                        "value": "Partially Paid"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 52,
+        "name": "Purchase Orders that are issued today",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "today",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 53,
+        "name": "Purchase Orders that are issued yesterday",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "yesterday",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 54,
+        "name": "Purchase Orders that are issued last month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "last_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 55,
+        "name": "Purchase Orders that are issued this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 56,
+        "name": "All Payments Made",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments-made",
+        "filter_match": "and"
+    },
+    {
+        "id": 57,
+        "name": "Payments made today",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "today",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments-made",
+        "filter_match": "and"
+    },
+    {
+        "id": 58,
+        "name": "Payments made yesterday",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "yesterday",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments-made",
+        "filter_match": "and"
+    },
+    {
+        "id": 59,
+        "name": "Payments made last month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "last_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments-made",
+        "filter_match": "and"
+    },
+    {
+        "id": 60,
+        "name": "Payments made this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments-made",
+        "filter_match": "and"
+    },
+    {
+        "id": 61,
+        "name": "Payments made with transaction fees",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "transaction_fees",
+                    "type": "numeric",
+                    "title": "Transaction Fees"
+                },
+                "operator": {
+                    "name": "greater_than",
+                    "parent": [
+                        "numeric"
+                    ],
+                    "component": "single"
+                },
+                "query_1": "0",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "payments-made",
+        "filter_match": "and"
+    },
+    {
+        "id": 62,
+        "name": "All Expenses",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "expenses",
+        "filter_match": "and"
+    },
+    {
+        "id": 63,
+        "name": "Expenses made today",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "today",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "expenses",
+        "filter_match": "and"
+    },
+    {
+        "id": 64,
+        "name": "Expenses made yesterday",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "yesterday",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "expenses",
+        "filter_match": "and"
+    },
+    {
+        "id": 65,
+        "name": "Expenses made last month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "last_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "expenses",
+        "filter_match": "and"
+    },
+    {
+        "id": 66,
+        "name": "Expenses made this month",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_peroid",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_2"
+                },
+                "query_1": "this_month",
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "expenses",
+        "filter_match": "and"
+    },
+    {
+        "id": 67,
+        "name": "Expenses made by Cash",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "method",
+                    "type": "static_lookup",
+                    "options": [
+                        "cheque",
+                        "cash",
+                        "bank_transfer"
+                    ],
+                    "title": "method"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "static_lookup"
+                    ],
+                    "component": "static_lookup"
+                },
+                "query_1": [
+                    {
+                        "name": "cash",
+                        "value": "Cash"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "expenses",
+        "filter_match": "and"
+    },
+    {
+        "id": 68,
+        "name": "All Exports",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "is_not_empty",
+                    "parent": [
+                        "date",
+                        "numeric",
+                        "string",
+                        "datetime",
+                        "lookup"
+                    ],
+                    "component": "none"
+                },
+                "query_1": null,
+                "query_2": null,
+                "placeholder": null
+            }
+        ],
+        "resource": "recurring-exports",
+        "filter_match": "and"
+    },
+    {
+        "id": 69,
+        "name": "Contacts created in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "created_at",
+                    "type": "datetime",
+                    "title": "Created At"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "contacts",
+        "filter_match": "and"
+    },
+    {
+        "id": 70,
+        "name": "Quotations issued in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 71,
+        "name": "Quotations that are sent and expired",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "status.name",
+                    "type": "lookup",
+                    "resource": "quotation_statuses",
+                    "column": "name",
+                    "title": "Status"
+                },
+                "operator": {
+                    "name": "includes",
+                    "parent": [
+                        "lookup",
+                        "lookup_only"
+                    ],
+                    "component": "lookup"
+                },
+                "query_1": [
+                    {
+                        "id": 2,
+                        "name": "Sent",
+                        "value": "Sent"
+                    }
+                ],
+                "query_2": null,
+                "placeholder": null
+            },
+            {
+                "column": {
+                    "name": "expiry_date",
+                    "type": "datetime",
+                    "title": "Expiry Date"
+                },
+                "operator": {
+                    "name": "over",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_4"
+                },
+                "query_1": "1",
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "quotations",
+        "filter_match": "and"
+    },
+    {
+        "id": 72,
+        "name": "Payments received in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "payments",
+        "filter_match": "and"
+    },
+    {
+        "id": 73,
+        "name": "Refunds issued in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "refund_date",
+                    "type": "datetime",
+                    "title": "Refund Date"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "refunds",
+        "filter_match": "and"
+    },
+    {
+        "id": 74,
+        "name": "Purchase Orders issued in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "purchase-orders",
+        "filter_match": "and"
+    },
+    {
+        "id": 75,
+        "name": "Payments made in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "payments-made",
+        "filter_match": "and"
+    },
+    {
+        "id": 76,
+        "name": "Invoices issued in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "issue_date",
+                    "type": "datetime",
+                    "title": "Issue Date"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "invoices",
+        "filter_match": "and"
+    },
+    {
+        "id": 77,
+        "name": "Expenses made in the past 28 days",
+        "shared_with": "team",
+        "params": [
+            {
+                "column": {
+                    "name": "payment_date",
+                    "type": "datetime",
+                    "title": "Payment Date"
+                },
+                "operator": {
+                    "name": "in_the_past",
+                    "parent": [
+                        "datetime"
+                    ],
+                    "component": "datetime_1"
+                },
+                "query_1": 28,
+                "query_2": "days",
+                "placeholder": null
+            }
+        ],
+        "resource": "expenses",
+        "filter_match": "and"
+    }
+]

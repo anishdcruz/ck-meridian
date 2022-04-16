@@ -1,0 +1,190 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-meridian {
+
+}
+
+body {
+	color: $dark;
+	font-size: 14px;
+}
+.mri-jumbotron {
+	// background: pink;
+}
+.undraw-image {
+	width: 100%;
+}
+.jumbotron {
+	background: transparent;
+}
+.mri-feature-list {
+
+}
+
+.mri-feature-item {
+	padding: 30px;
+	text-align: center;
+	strong {
+		font-size: 1.5rem;
+		margin-bottom: 5px;
+		border-bottom: 1px dotted #adb5bd
+	}
+}
+
+.mri-feature-img {
+	display: block;
+	width: 100%;
+	padding: 25px;
+}
+
+.mri-carousel {
+	display: block;
+	width: 100%;
+	padding: 50px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	background: #78EFC7;
+}
+
+.carousel-caption {
+	color: $dark;
+}
+.mri-get-started {
+	background: #f8fbfb;
+	text-align: center;
+	padding: 100px 0;
+}
+.mri-footer {
+	padding: 50px 0;
+	ul {
+		padding: 5px 0 0 0;
+		li {
+			display: block;
+		}
+	}
+	a {
+		color: $dark;
+	}
+}
+.mri-footer-copy {
+	color: #666;
+	margin-top: 25px;
+}
+.mri-page-title {
+	text-align: center;
+	padding: 50px 0;
+}
+.mri-faqs {
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px 0;
+	columns: 2;
+}
+.mri-faq-item {
+	width: 90%;
+	margin-bottom: 35px;
+}
+.mri-faq-q {
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.mri-faq-a {
+	color: #444;
+}
+.mri-terms {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+.card-price {
+	text-align: center;
+	padding: 15px;
+	border: none;
+	border-radius: 15px;
+}
+
+.card-register {
+	padding: 15px;
+	border: none;
+	border-radius: 15px;
+}
+
+.card-price .card-header,
+.card-register .card-header {
+    background-color: transparent;
+}
+
+.bg-skew {
+	position: relative;
+}
+.bg-skew::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f7f8fa;
+    width: 100%;
+    height: 100%;
+    transform: skewY(-5deg);
+    transform-origin: top left;
+    z-index: -2;
+}
+
+.invoice-body {
+	margin-top: 50px;
+}
+
+.invoice {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+	p {
+		margin: 0;
+	}
+}
+.invoice-header {
+	text-align: center;
+	padding: 25px;
+}
+.invoice-body {
+	padding: 25px;
+	display: flex;
+}
+
+.invoice-logo_holder {
+	padding-bottom: 15px;
+	max-width: 100px;
+	margin: 0 auto;
+}
+
+.invoice-logo {
+	width: 100%;
+}
+
+.invoice-footer {
+	padding: 25px;
+	display: flex;
+	border-top: 1px dashed #e0e0e0;
+}
+
+.invoice-footer-item,
+.invoice-body-item {
+	flex: 1;
+}
+
+.mri-feature-pair-image {
+	padding: 0px 25px;
+}
+
+.mri-feature-pair-text {
+	margin-bottom: 100px;
+}
